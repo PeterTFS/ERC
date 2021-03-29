@@ -43,8 +43,8 @@ def sendEmail(TXT):
     #server.set_debuglevel(1)
     SUBJECT = 'Missing data for ERC Seasonal Graph'
     message = 'Subject: %s\n\n%s' % (SUBJECT, TXT)
-    tolist = ["pyang@tfs.tamu.edu","mdunivan@tfs.tamu.edu"]
-    server.sendmail("pyang@tfs.tamu.edu", tolist, message)
+    tolist = ["pyang@**.edu"]
+    server.sendmail("pyang@**.edu", tolist, message)
 
 
 root = os.getcwd()
